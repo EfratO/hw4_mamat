@@ -1,0 +1,15 @@
+a.there are ~50 articles, we estimate that searching manually each article
+consume 10 minutes. Hence, the task will take ~8-9 hours (500 minutes) .
+using our script saves lots of time (1 minute over 500 minutes)
+and it is more reliable.
+
+b.We can apply this principle in searching and editing articles, books etc.
+For example, we can write a script that counts and print our current open tasks
+in each course on Moodle.
+
+c.In order to run the script every hour we can do it automatically by using
+the "watch" command (otherwise we should run manually the script every time).
+We can handle with old articles by making new links and result file in each 
+run. More efficient option will be to compare the previous links to each link
+of the current run. After that the script will run only over our new links
+and add it's result to the previous result file. 
